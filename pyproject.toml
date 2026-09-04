@@ -1,13 +1,12 @@
 [project]
 name = "medidor-consumo"
 version = "0.1.0"
-description = "Add your description here"
+description = "Monitor local de consumo estimado de energia do computador"
 readme = "README.md"
 requires-python = ">=3.14,<3.15"
 dependencies = [
-    "pandas>=3.0.5",
+    "fastapi[standard]>=0.141.1",
     "pythonnet>=3.1.0",
-    "streamlit>=1.61.1",
 ]
 
 [project.scripts]
